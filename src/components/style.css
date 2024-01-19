@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Metal+Mania&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+
+  font-family: 'Metal Mania', cursive;
+}
+.swiper {
+  width: 100%;
+  height: 75vh;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.HeadOver {
+  width: 100%;
+  height: 75vh;
+  top: 25%;
+  border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0), #0000008a);
+  position: absolute;
+}
+
+.SectiononeImg {
+  width: 500px;
+  border-radius: 20px;
+}
+
+.SectiononeTitle {
+  margin-top: 7%;
+}
+
+.social a{
+    color: rgb(97, 94, 94);
+}
+
+
+.btn{
+  background: #b3df46;
+}
+.btn:hover{
+  background: #007ddd;
+}
+
+@media only screen and (max-width: 600px) {
+  .SectiononeImg{
+    width: 320px;
+  }
+  .SectiononeTitle{
+    margin-bottom: 30px;
+  }
+}
